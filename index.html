@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="shortcut icon" href="login.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="mainpage vh-100 p-1 header finisher-header">
+
+        <div class=" text-center m-auto my-5 p-5 login rounded-4">
+            <h1 class="mb-3 text-white lead fs-2">Smart Login System</h1>
+            <div class="mb-3">
+                
+                <input type="email" class="form-control" id="signinEmail" placeholder="Enter Your Email">
+              </div>
+              <div class="mb-3">
+                <input type="password" class="form-control" id="signinPassword" placeholder="Enter Your password">
+              </div>
+              <p id="loginEror" class="erorr"></p>
+
+              <button class="btn btn-outline-info w-100 text-white" id="logIn">Login</button>
+
+              <p class="mt-3 text-white lead">Don’t have an account? <a href="signup.html" class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover link-info">Sign Up</a></p>
+        </div>
+    </div>
+
+
+
+    
+  
+    <script src="js/finisher-header.es5.min.js" type="text/javascript"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/login.js"></script>
+    <script type="text/javascript">
+      new FinisherHeader({
+        "count": 100,
+        "size": {
+          "min": 2,
+          "max": 8,
+          "pulse": 0
+        },
+        "speed": {
+          "x": {
+            "min": 0,
+            "max": 0.4
+          },
+          "y": {
+            "min": 0,
+            "max": 0.6
+          }
+        },
+        "colors": {
+          "background": "#201e30",
+          "particles": [
+            "#0dcaf0",
+            "#0dcaf0",
+            "#f5f6f2"
+          ]
+        },
+        "blending": "overlay",
+        "opacity": {
+          "center": 1,
+          "edge": 0
+        },
+        "skew": 0,
+        "shapes": [
+          "c"
+        ]
+      });
+      </script>
+</body>
+</html>
